@@ -1,0 +1,7 @@
+version: "3"
+services:
+  price-service:
+    image: product-service
+    container_name: product-service
+    ports:
+      - "8080:8080"
